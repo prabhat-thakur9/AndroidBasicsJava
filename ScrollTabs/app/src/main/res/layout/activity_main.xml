@@ -1,0 +1,12 @@
+<androidx.viewpager.widget.ViewPager android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    ><androidx.viewpager.widget.PagerTitleStrip
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:id="@+id/title"
+    android:background="#55cc00"></androidx.viewpager.widget.PagerTitleStrip>
+</androidx.viewpager.widget.ViewPager>

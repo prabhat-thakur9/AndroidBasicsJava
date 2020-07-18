@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MultiThreadingExample</string>
+    <string-array name="urls"><item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item></string-array>
+    <string-array name="imageUrls">
+        <item>https://image.freepik.com/free-vector/you-win-sign-pop-art-style_175838-498.jpg</item>
+        <item>https://cdn5.vectorstock.com/i/1000x1000/20/74/you-win-poster-with-prize-cup-vector-17052074.jpg</item>
+        <item>https://image.freepik.com/free-vector/you-win-sign-pop-art-style_175838-498.jpg</item>
+        <item>https://ugc.futurelearn.com/uploads/images/db/c2/hero_dbc2e5d7-3e39-4d63-bcf8-0a5cf9efbfab.jpg</item>
+        <item>https://thumbs.dreamstime.com/b/vector-stock-comic-explosion-bang-boom-you-win-text-comic-cartoon-bang-exsplosion-you-win-text-126376540.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/I/51IZad8FK4L._SX330_BO1,204,203,200_.jpg</item>
+    </string-array>
+</resources>

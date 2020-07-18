@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Earth</item>
+        <item>Jupiter</item>
+
+    </string-array>
+</resources>

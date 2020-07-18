@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GridView1</string>
+    <string-array name="countrynames">
+        <item>Australia</item>
+        <item>Germany</item>
+        <item>India</item>
+        <item>Russia</item>
+        <item>Spain</item>
+        <item>Switzerland</item>
+        <item>Yemen</item>
+    </string-array>
+    <string name="title_activity_mydialog">Mydialog</string>
+</resources>

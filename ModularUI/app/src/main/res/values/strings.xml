@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ModularUI</string>
+    <string-array name="chapters">
+        <item>Prabhat</item>
+        <item>Neehar</item>
+        <item>Muskaan</item>
+        <item>Deepak</item>
+        <item>Pallavi</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>1MS17TE035</item>
+        <item>1MS17TE027</item>
+        <item>1MS17TE063</item>
+        <item>1MS17TE010</item>
+        <item>1MS17TE043</item>
+    </string-array>
+</resources>

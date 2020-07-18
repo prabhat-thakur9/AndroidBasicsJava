@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8800"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/downloadURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFF"
+        android:focusable="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/downloadImage"
+        android:layout_alignParentLeft="@+id/downloadURL"
+        android:layout_alignParentRight="@+id/downloadURL"
+        android:layout_below="@+id/downloadURL"
+        android:layout_margin="8dp"
+        android:background="#99CC00"
+        android:onClick="downloadImage"
+        android:text="Download Image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingSection"
+        android:layout_below="@id/downloadImage"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loadingMessage"
+            style="?android:textAppearanceSmall"
+            android:gravity="center"
+            android:text="Loading..."/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/downloadProgress"
+            style="?android:progressBarStyleSmall"
+            android:indeterminate="true"></ProgressBar>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlList"
+        android:layout_alignLeft="@+id/downloadImage"
+        android:layout_below="@id/loadingSection"
+        android:entries="@array/urls"></ListView>
+</RelativeLayout>
+    
+
+
